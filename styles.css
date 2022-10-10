@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #50A5FB;
+}
+
+header{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #023E7A;
+}
+
+img{
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+}
+ 
+nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #4a75f7c5;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav li a{
+    color: rgba(255, 255, 255, 0.664);
+    font-weight: 400;
+}
+
+nav li{
+    margin-left: 20px;
+}
+
+a:hover{
+    transition: 0.3s;
+    color: #003DF5;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+    display: block;
+}
+
+main p, button{
+    margin-top: 30px;
+}
+
+.um{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+button{
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: #4A75F7;
+    color: white;
+}
+
+button:hover{
+    transition: 0.5;
+    color: #003DF5;
+
+}
+
+.sectionum{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 300;
+}
+
+.modais{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #003DF5;
+    padding: 12px;
+    border-radius: 10px;
+    width: 200px;
+    
+}
+
+.modal h1{
+     margin-bottom: 20px;
+     border-bottom: solid 0.5px  rgba(255, 255, 255, 0.397);
+}
+
+
+.modal li{
+    list-style: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+    background-color: #0e60a875;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+footer  h1{
+    margin-bottom: 15px;
+}
+
+footer p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.sociais a i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #03060f;
+    
+}
+
+.sociais a:hover i{
+    transition: 0.5s;
+    color: #003DF5;
+}
+
+ 
